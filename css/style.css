@@ -20,8 +20,13 @@
 		font-weight: 300;
 		color: #8A8A8A;
 	}
-
-	h1, h2, h3 {
+    h1 {
+		margin: 0px;
+		padding: 0px;
+		font-weight: 300;
+    }
+    
+	h2, h3 {
 		margin: 0px;
 		padding: 0px;
 		font-weight: 300;
@@ -91,8 +96,9 @@
 
 	header
 	{
-		margin-bottom: 2.5em;
-	}
+        margin-bottom: 2.5em;
+    }
+
 
 	header h2
 	{
@@ -678,15 +684,17 @@ ul.style3 .first {
 	#header
 	{
 		position: relative;
-		text-align: center;
-		background: url(../images/banner.jpg) no-repeat center;
-		background-size: cover;
+        text-align: center;
+        background-repeat: no-repeat;
+		/*background: url(../images/correct.png) center;*/
+        /*background-size: cover;
+        /*background-image: url(../images/banner.jpg);*/
 	}
-
 
 	#page {
 		padding: 5em 0em;
-		background: #FFF
+
+        background: #FFF url(../images/correct.png) no-repeat fixed right;
 	}
 	
 	#content header
@@ -698,10 +706,6 @@ ul.style3 .first {
 	{
 		line-height: 1.2em;
 		font-size: 3em;
-	}
-
-	#content
-	{
 	}
 	
 	#footer
@@ -722,7 +726,7 @@ ul.style3 .first {
 	
 	#copyright .container
 	{
-		padding: 3em 0em;
+		padding: 2em 0em;
 		border-top: 1px solid;
 		border-color: rgba(0,0,0,.1);
 	}
