@@ -694,7 +694,11 @@ ul.style3 .first {
 	#page {
 		padding: 5em 0em;
 
-        background: #FFF url(../images/correct.png) no-repeat fixed right;
+		background: #FFF url(../images/correct.png);
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: scroll;
+		background-size: 50%;
 	}
 	
 	#content header
